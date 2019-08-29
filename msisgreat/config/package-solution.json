@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "msisgreat-client-side-solution",
+    "id": "34e5c13f-e311-4eb4-8bde-8a022325ba69",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/msisgreat.sppkg"
+  }
+}
