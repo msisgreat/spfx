@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.9.1",
+    "libraryName": "msgraph-teams",
+    "libraryId": "7bb913a8-b641-48b2-96f5-f8c32071e1fb",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "msgraph-teams",
+    "skipFeatureDeployment": "true",
+    "componentType": "webpart",
+    "framework": "none",
+    "componentName": "msgraph-wp",
+    "componentDescription": "MS Graph webpart to get all the teams joined.",
+    "isCreatingSolution": true,
+    "isDomainIsolated": false
+  }
+}
