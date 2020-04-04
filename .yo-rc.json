@@ -1,0 +1,14 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "solutionName": "AutoDeploy",
+    "environment": "spo",
+    "packageManager": "npm",
+    "skipFeatureDeployment": "true",
+    "componentType": "webpart",
+    "framework": "none",
+    "componentName": "spfxdeploy-wp",
+    "componentDescription": "SPFx Gulp build tool for the publish & deploy.",
+    "isCreatingSolution": true,
+    "whichFolder": "subdir"
+  }
+}

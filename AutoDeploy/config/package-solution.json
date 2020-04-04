@@ -1,0 +1,14 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "auto-deploy-client-side-solution",
+        "id": "176ae4b3-7315-46ae-8a11-bf1e37a265f9",
+        "version": "1.0.2",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false
+    },
+    "paths": {
+        "zippedPackage": "solution/auto-deploy.sppkg"
+    }
+}
