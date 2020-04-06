@@ -1,6 +1,6 @@
 ## jquery-spfx
 
-This is where you include your WebPart documentation.
+yo @microsoft/sharepoint --solution-name "jquery-spfx" --component-name "jqueryspfx-wp" --component-description "This webpart will use the jQuery, bootstrap and font awesome." --component-type "webpart" --framework "none" --environment "spo" --package-manager "npm" --skip-feature-deployment
 
 ### Building the code
 
@@ -10,17 +10,20 @@ npm i
 npm i -g gulp
 gulp
 ```
-
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+-------------------
+Run these packages after creating project:
+-------------------
+```bash
+npm install jquery --save
+npm install @types/jquery --save-dev 
+npm install bootstrap@4 --save 
+npm install @types/bootstrap@4 --save-dev 
+npm install --save @fortawesome/fontawesome-free
+npm install url-loader --save-dev
+```
+### Below files are modified
+```bash
+gulpfile.js
+config.json
+webpart ts file 
+```
