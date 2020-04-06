@@ -10,17 +10,28 @@ npm i
 npm i -g gulp
 gulp
 ```
+This sample contains the custom build function inside gulpfile.js 
+Run the below command to install the spsync creds: Then add the build commands
 
-This package produces the following:
+npm install gulp-spsync-creds --save-dev --save-exact
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+Below is the content from gulpfile.js
+----------------------------------------
+Open the gulpfile.js to see the build commands added
+3 commands added
 
-### Build options
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+Package-solution.json
+------------------
+"version": "1.0.0"
+
+Package.json
+----------
+"scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "gulp test",
+    "deploy": "gulp clean && gulp bundle --ship && gulp package-solution --ship",
+    "publish": "gulp upload-to-sharepoint --ship && gulp upload-app-pkg --ship"
+  }
+
