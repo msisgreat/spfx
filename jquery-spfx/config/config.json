@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jqueryspfx-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jqueryspfxWp/JqueryspfxWpWebPart.js",
+          "manifest": "./src/webparts/jqueryspfxWp/JqueryspfxWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "bootstrap": {
+      "path": "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "globalName": "bootstrap",
+      "globalDependencies": [
+        "jquery"
+      ]
+    }
+  },
+  "localizedResources": {
+    "JqueryspfxWpWebPartStrings": "lib/webparts/jqueryspfxWp/loc/{locale}.js"
+  }
+}

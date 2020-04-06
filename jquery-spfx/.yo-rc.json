@@ -1,14 +1,17 @@
 {
   "@microsoft/generator-sharepoint": {
-    "solutionName": "jquery-spfx",
+    "version": "1.9.1",
+    "libraryName": "jquery-spfx",
+    "libraryId": "94205f5d-a7ab-4459-bd6e-7c4374531eba",
     "environment": "spo",
     "packageManager": "npm",
+    "solutionName": "jquery-spfx",
     "skipFeatureDeployment": "true",
     "componentType": "webpart",
     "framework": "none",
     "componentName": "jqueryspfx-wp",
     "componentDescription": "This webpart will use the jQuery, bootstrap and font awesome.",
     "isCreatingSolution": true,
-    "whichFolder": "subdir"
+    "isDomainIsolated": false
   }
 }
