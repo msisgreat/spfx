@@ -1,14 +1,17 @@
 {
   "@microsoft/generator-sharepoint": {
-    "solutionName": "spfx-pnpjs",
+    "version": "1.9.1",
+    "libraryName": "spfx-pnpjs",
+    "libraryId": "54d91b9c-8eb7-468d-abdd-f1e186ce5743",
     "environment": "spo",
     "packageManager": "npm",
+    "solutionName": "spfx-pnpjs",
     "skipFeatureDeployment": true,
     "componentType": "webpart",
     "framework": "none",
     "componentName": "spfx-pnpjs-wp",
     "componentDescription": "This webpart will use the jQuery, bootstrap and font awesome. Query list using pnpjs",
     "isCreatingSolution": true,
-    "whichFolder": "subdir"
+    "isDomainIsolated": false
   }
 }
