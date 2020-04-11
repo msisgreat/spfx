@@ -1,14 +1,17 @@
 {
   "@microsoft/generator-sharepoint": {
-    "solutionName": "spfx-jquery-owlcarousel",
+    "version": "1.9.1",
+    "libraryName": "spfx-jquery-owlcarousel",
+    "libraryId": "22a7589a-a4dc-4f33-9a92-868e524d5293",
     "environment": "spo",
     "packageManager": "npm",
+    "solutionName": "spfx-jquery-owlcarousel",
     "skipFeatureDeployment": true,
     "componentType": "webpart",
     "framework": "none",
     "componentName": "spfx-owlcarousel-wp",
     "componentDescription": "This webpart will use the jQuery, bootstrap and font awesome. Query list using pnpjs",
     "isCreatingSolution": true,
-    "whichFolder": "subdir"
+    "isDomainIsolated": false
   }
 }
