@@ -17,7 +17,7 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
     "group": { "default": "SPFx" },
-    "title": { "default": "spfx-owlcarousel" },
+    "title": { "default": "owlcarousel" },
     "description": { "default": "This webpart will use the jQuery, bootstrap and font awesome. Query list using pnpjs" },
     "officeFabricIconFontName": "SharepointLogo",
     "properties": {
