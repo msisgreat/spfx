@@ -1,4 +1,4 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/write-manifests.schema.json",
-  "cdnBasePath": "https://msisgrt.sharepoint.com/Lists/AppPackages/anitax"
+  "cdnBasePath": ""
 }
