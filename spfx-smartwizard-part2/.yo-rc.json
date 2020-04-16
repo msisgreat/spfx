@@ -1,14 +1,17 @@
 {
   "@microsoft/generator-sharepoint": {
-    "solutionName": "spfx-smartwizard-part2",
+    "version": "1.9.1",
+    "libraryName": "spfx-smartwizard-part-2",
+    "libraryId": "898008b4-af4d-45c5-b486-8120bf0ef17b",
     "environment": "spo",
     "packageManager": "npm",
+    "solutionName": "spfx-smartwizard-part2",
     "skipFeatureDeployment": true,
     "componentType": "webpart",
     "framework": "none",
     "componentName": "spfx-smartwizard2-wp",
     "componentDescription": "This webpart will use the jQuery plugin smartwizard",
     "isCreatingSolution": true,
-    "whichFolder": "subdir"
+    "isDomainIsolated": false
   }
 }

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "ac8676f1-c940-4a0e-b750-8162f0d30285",
+  "alias": "SpfxSmartwizard2WpWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "SPFx" },
+    "title": { "default": "spfx-smartwizard2-wp" },
+    "description": { "default": "This webpart will use the jQuery plugin smartwizard" },
+    "officeFabricIconFontName": "WebAppBuilderFragment",
+    "properties": {
+      "keyNavigation" : true,
+      "autoAdjustHeight":true,
+      "cycleSteps":false,
+      "backButtonSupport":true,
+      "useURLhash":true,
+      "showStepURLhash":true,
+      "theme":"dots",
+      "transitionEffect":"none",
+      "transitionSpeed":500,
+      "tb_toolbarPosition":"bottom",
+      "tb_toolbarButtonPosition":"right",
+      "tb_showNextButton":true,
+      "tb_showPreviousButton":true,
+      "btn_next":"Next>",
+      "btn_previous":"<Previous"
+    }
+  }]
+}
