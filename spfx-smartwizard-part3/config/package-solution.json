@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-smartwizard-part-3-client-side-solution",
+    "id": "61eda2e3-b8f4-4adc-a1e9-0ddc14edb407",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-smartwizard-part-3.sppkg"
+  }
+}
