@@ -1,14 +1,17 @@
 {
   "@microsoft/generator-sharepoint": {
-    "solutionName": "spfx-animatecss",
+    "version": "1.9.1",
+    "libraryName": "spfx-animatecss",
+    "libraryId": "2ecc6420-ab63-4d34-bff3-660bc68dd7f5",
     "environment": "spo",
     "packageManager": "npm",
+    "solutionName": "spfx-animatecss",
     "skipFeatureDeployment": true,
     "componentType": "webpart",
     "framework": "none",
     "componentName": "spfx-animate-wp",
     "componentDescription": "Pure CSS based animate",
     "isCreatingSolution": true,
-    "whichFolder": "subdir"
+    "isDomainIsolated": false
   }
 }
