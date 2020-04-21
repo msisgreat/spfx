@@ -46,7 +46,7 @@ export default class SpfxIhovercssWpWebPart extends BaseClientSideWebPart<ISpfxI
   }
 
   protected onInit(): Promise<void> {
-    SPComponentLoader.loadCss("https://msisgrt.sharepoint.com/SiteAssets/css/ihover.css");
+    SPComponentLoader.loadCss("//ihover.css");
     sp.setup({
       spfxContext: this.context
     });
