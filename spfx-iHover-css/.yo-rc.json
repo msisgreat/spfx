@@ -1,14 +1,17 @@
 {
   "@microsoft/generator-sharepoint": {
-    "solutionName": "spfx-iHover-css",
+    "version": "1.9.1",
+    "libraryName": "spfx-i-hover-css",
+    "libraryId": "4665b28b-c7fb-4dd1-8129-2ce68ae216d4",
     "environment": "spo",
     "packageManager": "npm",
+    "solutionName": "spfx-iHover-css",
     "skipFeatureDeployment": true,
     "componentType": "webpart",
     "framework": "none",
     "componentName": "spfx-ihovercss-wp",
     "componentDescription": "Pure CSS based animate",
     "isCreatingSolution": true,
-    "whichFolder": "subdir"
+    "isDomainIsolated": false
   }
 }
