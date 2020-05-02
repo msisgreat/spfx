@@ -3,7 +3,7 @@
 Download jPages https://github.com/luis-almeida/jPages and upload it to any SP document library. 
 This sample uses bootstrap, pnpjs, jquery,animate.css  as dependent 
 
-https://github.com/msisgreat/spfx/spfx-jPages-animate/jPageAnimateImage.gif
+https://github.com/msisgreat/spfx/tree/master/spfx-jPages-animate/jPageAnimateImage.gif
 
 ### Building the code
 
