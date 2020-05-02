@@ -1,6 +1,7 @@
 ## spfx-j-pages-animate
 
-This is where you include your WebPart documentation.
+Download jPages https://github.com/luis-almeida/jPages and upload it to any SP document library. 
+This sample uses bootstrap, pnpjs, jquery,animate.css  as dependent 
 
 ### Building the code
 
@@ -24,3 +25,4 @@ gulp test - TODO
 gulp serve - TODO
 gulp bundle - TODO
 gulp package-solution - TODO
+
