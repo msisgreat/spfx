@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-animate-jpages-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxAnimateJpagesWp/SpfxAnimateJpagesWpWebPart.js",
+          "manifest": "./src/webparts/spfxAnimateJpagesWp/SpfxAnimateJpagesWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "bootstrap": {
+      "path": "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "globalName": "bootstrap",
+      "globalDependencies": [
+        "jquery"
+      ]
+    },
+    "jPages": {
+      "path": "<URL>/jPages/js/jPages.min.js",
+      "globalName": "jPages",
+      "globalDependencies": [
+        "jquery"
+      ]
+    }
+  },
+  "localizedResources": {
+    "SpfxAnimateJpagesWpWebPartStrings": "lib/webparts/spfxAnimateJpagesWp/loc/{locale}.js"
+  }
+}

@@ -1,14 +1,17 @@
 {
   "@microsoft/generator-sharepoint": {
-    "solutionName": "spfx-jPages-animate",
+    "version": "1.9.1",
+    "libraryName": "spfx-j-pages-animate",
+    "libraryId": "4e305fd5-3112-48d4-9ac1-62a57ea2a83d",
     "environment": "spo",
     "packageManager": "npm",
+    "solutionName": "spfx-jPages-animate",
     "skipFeatureDeployment": true,
     "componentType": "webpart",
     "framework": "none",
     "componentName": "spfx-animate-jpages-wp",
     "componentDescription": "Animation using the jPages jQuery plugin",
     "isCreatingSolution": true,
-    "whichFolder": "subdir"
+    "isDomainIsolated": false
   }
 }
