@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "spfx-animate-jpages-wp-web-part": {
+    "search-wp-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/spfxAnimateJpagesWp/SpfxAnimateJpagesWpWebPart.js",
-          "manifest": "./src/webparts/spfxAnimateJpagesWp/SpfxAnimateJpagesWpWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/searchWp/SearchWpWebPart.js",
+          "manifest": "./src/webparts/searchWp/SearchWpWebPart.manifest.json"
         }
       ]
     }
@@ -22,16 +22,9 @@
       "globalDependencies": [
         "jquery"
       ]
-    },
-    "jPages": {
-      "path": "https://msisgrt.sharepoint.com/SiteAssets/jPages/js/jPages.min.js",
-      "globalName": "jPages",
-      "globalDependencies": [
-        "jquery"
-      ]
     }
   },
   "localizedResources": {
-    "SpfxAnimateJpagesWpWebPartStrings": "lib/webparts/spfxAnimateJpagesWp/loc/{locale}.js"
+    "SearchWpWebPartStrings": "lib/webparts/searchWp/loc/{locale}.js"
   }
 }

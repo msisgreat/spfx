@@ -1,14 +1,17 @@
 {
   "@microsoft/generator-sharepoint": {
-    "solutionName": "spfx-SearchAPI",
+    "version": "1.10.0",
+    "libraryName": "spfx-search-api",
+    "libraryId": "f716d73d-1876-4a47-a6b3-b7364bea3f19",
     "environment": "spo",
     "packageManager": "npm",
+    "solutionName": "spfx-SearchAPI",
     "skipFeatureDeployment": true,
     "componentType": "webpart",
     "framework": "none",
     "componentName": "search-wp",
     "componentDescription": "Search API",
     "isCreatingSolution": true,
-    "whichFolder": "subdir"
+    "isDomainIsolated": false
   }
 }

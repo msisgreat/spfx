@@ -45,7 +45,7 @@ export default class SpfxAnimateJpagesWpWebPart extends BaseClientSideWebPart<IS
   }
 
   protected onInit(): Promise<void> {
-    SPComponentLoader.loadCss("<URL>/jPages/css/jPages.css");
+    SPComponentLoader.loadCss("https://msisgrt.sharepoint.com/SiteAssets/jPages/css/jPages.css");
     sp.setup({
       spfxContext: this.context
     });
