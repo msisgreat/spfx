@@ -1,14 +1,17 @@
 {
   "@microsoft/generator-sharepoint": {
-    "solutionName": "spfx-flow-invoke",
+    "version": "1.10.0",
+    "libraryName": "spfx-flow-invoke",
+    "libraryId": "e891b3c0-3dc7-4c21-970c-0d7ea2588f85",
     "environment": "spo",
     "packageManager": "npm",
+    "solutionName": "spfx-flow-invoke",
     "skipFeatureDeployment": true,
     "componentType": "webpart",
     "framework": "none",
     "componentName": "invoke-flow",
     "componentDescription": "Invoke Power Automate from spfx",
     "isCreatingSolution": true,
-    "whichFolder": "subdir"
+    "isDomainIsolated": false
   }
 }

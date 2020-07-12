@@ -14,7 +14,7 @@ class FileSearchClass {
 
 export default class SearchClass {
     public static props: ISearchWpWebPartProps;
-    private static siteUrl:string = "https://<sitecollectionurl>";
+    private static siteUrl:string = "<SITE>";
     public static templateHtml: string = `<div class="container">
     <h3>Search Documents</h3>
     <hr/>
