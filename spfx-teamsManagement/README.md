@@ -10,6 +10,8 @@ yo @microsoft/sharepoint `
 --package-manager "npm" `
 --skip-feature-deployment
 
+##Video
+https://youtu.be/XOolMey96fU
 
 ### Things to Note
 	1. SPFx code on the package-solution.json include 
