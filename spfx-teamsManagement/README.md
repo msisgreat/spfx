@@ -1,6 +1,15 @@
-## spfx-teams-management
+## spfx-teams-management - For creating new from scratch
 
-This is where you include your WebPart documentation.
+yo @microsoft/sharepoint `
+--solution-name "spfx-teamsManagement" `
+--component-name "teams-management" `
+--component-description "Manage Teams from SPFx. Create Teams, Create Channel, view all Teams properties." `
+--component-type "webpart" `
+--framework "none" `
+--environment "spo" `
+--package-manager "npm" `
+--skip-feature-deployment
+
 
 ### Things to Note
 	1. SPFx code on the package-solution.json include 
