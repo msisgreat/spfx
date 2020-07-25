@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "TeamsManagement-App",
+    "id": "1757bab5-122b-4792-a0fe-ea40ccb3bd77",
+    "version": "1.5.1.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [  
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "User.Read.All"  
+      },
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "User.ReadWrite.All"  
+      },
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "User.ReadBasic.All"  
+      },
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "Group.Read.All"  
+      },
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "Directory.Read.All"  
+      }  
+    ]  
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-teamsManagement.sppkg"
+  }
+}
